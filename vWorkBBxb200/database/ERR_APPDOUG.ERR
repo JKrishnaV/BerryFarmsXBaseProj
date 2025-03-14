@@ -1,0 +1,52 @@
+----------------------------------------------------------------------
+Library Error Logger
+ EventCode: LibErr_0190
+Triggered: Oct 05,22   13:18:50
+LastKey =     13
+Application: S:\Pacific\prg200\cisBerryPay.exe
+The Total Number of Library errors is reported as: 1
+  LibErr_0190           1
+Logged on User: SUZIE     
+File Name of this Program: cisBerryPay.exe
+ full path and name: S:\Pacific\prg200\cisBerryPay.exe
+Current (data) Directory: Pacific\south
+106,785 mb free on Disk
+Compiled with the ALASKA xBase++ Compiler 2001354
+Alaska Software Version of Library 8.928.01354.05251   May 25-2021
+Current Application Window is: XbpCrt
+RS232 - Marshall WSC Ver=7.0.0 Build=4
+Program Name: Crafted Berry Payment System
+ Version: 4.276.01354.05251
+ Revision Date: May 25-2021
+
+We just created an oPS object to print to but an
+older oPS already existed.  This may just mean that
+you recently aborted a print job.  We will correct this.
+No added information is available.
+
+Call Stack...
+ Called by: PRESSPACENEW  4714
+      from: W32PRNALTSETUPJOB   355
+      from: CREATEPRINTEROBJ  1209
+      from: SELECTPRN   756
+      from: CHEQUEREGISTER    92
+      from: RPTMFINANCE   380
+      from: REPORTMENU   159
+      from: MENUS    53
+      from: MAIN   107
+
+Current DBF: AUDACCT
+Field 1: 632
+Field 2: ACCT_CHILD 633
+Field 3: QADD_DATE 20180928
+Recno:          1
+ 
+Open Database tables (if any):
+    1 GROWER         Rec#: 4 Index No:1
+    2 ACCOUNT        Rec#: 1 Index No:1
+    3 CHEQUE         Rec#: 64 Index No:3
+    4 BANKREC        Rec#: 1 Index No:1
+    5 VOIDCHQ        Rec#: 2 Index No:1
+    6 AUDACCT        Rec#: 1 Index No:1
+======================================================================
+ 
