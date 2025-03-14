@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<version number="1.0" />
+<session>
+  <active file=".\MENUS.PRG" />
+  <openfiles>
+    <openfile path=".\BERRY.ARC" column="37" line="12" />
+    <openfile path=".\GLIST.PRG" column="56" line="363" />
+    <openfile path=".\MAIN.PRG" column="0" line="111" />
+    <openfile path=".\ED_RECPT.PRG" column="0" line="1355" />
+    <openfile path=".\MENUS.PRG" column="0" line="65" />
+    <openfile path="..\..\libXB200\lWork\VIEWREC.PRG" column="0" line="32" />
+  </openfiles>
+  <breakpoints>
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = ".\ED_RECPT.PRG"
+                line      = "1260"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = ".\RepairData_1Offs.prg"
+                line      = "174"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = ".\RepairData_1Offs.prg"
+                line      = "122"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+  </breakpoints>
+  <watches>
+    <watch expression="Daily-&gt;recPt" target=".\cisBerryPay.exe" />
+    <watch expression="Daily-&gt;post_Bat2" target=".\cisBerryPay.exe" />
+    <watch expression="Daily-&gt;product" target=".\cisBerryPay.exe" />
+    <watch expression="Daily-&gt;fin_price" target=".\cisBerryPay.exe" />
+    <watch expression="Daily-&gt;process" target=".\cisBerryPay.exe" />
+  </watches>
+</session>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<version number="1.0" />
+<session>
+  <active file=".\MAIN.PRG" />
+  <openfiles>
+    <openfile path=".\BERRY.ARC" column="56" line="33" />
+    <openfile path=".\MAIN.PRG" column="0" line="80" />
+    <openfile path="..\..\libXB200\lWork\SYSVALUE.PRG" column="60" line="401" />
+    <openfile path=".\GROWER.PRG" column="48" line="92" />
+  </openfiles>
+  <breakpoints>
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = ".\GROWER.PRG"
+                line      = "70"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = ".\MAIN.PRG"
+                line      = "27"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+  </breakpoints>
+  <view>
+    <collapsed key="_CAFB37CF82506CBDBEB0A1212ED7543D73583D28" />
+  </view>
+</session>

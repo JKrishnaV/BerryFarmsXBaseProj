@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<version number="1.0" />
+<session>
+  <active file="..\..\libXB200\lWork\DBESYS_CDX.PRG" />
+  <openfiles>
+    <openfile path="..\..\libXB200\lWork\DBESYS_CDX.PRG" column="0" line="96" />
+  </openfiles>
+  <breakpoints>
+    <breakpoint target    = ".\cisBerryPay.exe"
+                file      = "..\..\libXB200\lWork\DBESYS_CDX.PRG"
+                line      = "45"
+                state     = "1"
+                condition = ".T."
+                fromPass  = "1"
+                toPass    = "-1"
+                everyPass = "1"
+                halt      = "Yes"
+                logMode   = "0"
+                msg       = "BREAKPOINT AT %ProcName()%(), LINE: %ProcLine()%"
+                logFile   = ""
+                />
+  </breakpoints>
+  <view>
+    <expanded key="_76B88A56C0D67BB6B91A0BC33693933614BB80C1" />
+    <expanded key="_D236F28AB94355C0B2B6A937B0FEB2079555AD93" />
+  </view>
+</session>
